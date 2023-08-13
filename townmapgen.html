@@ -1,10 +1,10 @@
 <body>
 <div id="map">
-  <img name="map" src="Graphics/Pictures/mapRegion0.png" alt="" width="480" height="320"/>
+  <img name="map" src="Graphics/UI/Town Map/mapRegion0.png" alt="" width="480" height="320"/>
 </div>
 <form name="mf" action="javascript:void(null)">
   <div>
-    Map Filename (in Graphics/Pictures/): <input type="text" name="filename" value="mapRegion0.png"/>&nbsp;
+    Map Filename (in Graphics/UI/Town Map/): <input type="text" name="filename" value="mapRegion0.png"/>&nbsp;
     <input type="button" name="btnChange" value="Change"/><br/ >
     Square width: <input type="text" name="sqwidth" size="4" min="1" max="16" value="16"/>&nbsp;
     Square height: <input type="text" name="sqheight" size="4" min="1" max="16" value="16"/>&nbsp;
@@ -194,7 +194,7 @@
         }
         if(e[1]=="Filename"){
           o=document.getElementById("map")
-          o.innerHTML='<img name="map" src="Graphics/Pictures/'+e[2]+'" alt="" width="480" height="320"/'+'>' 
+          o.innerHTML='<img name="map" src="Graphics/UI/Town Map/'+e[2]+'" alt="" width="480" height="320"/'+'>' 
         } else if(e[1]=="Name"){
           document.mf.name.value=e[2]
         } else if(e[1]=="Point"){
@@ -356,7 +356,7 @@
       showMapPoints()
     })
     attachEvent(document.mf.btnChange,"click",function(e){
-      document.images.map.src="Graphics/Pictures/"+document.mf.filename.value
+      document.images.map.src="Graphics/UI/Town Map/"+document.mf.filename.value
       genMapPoints()
       showMapPoints()
     })
