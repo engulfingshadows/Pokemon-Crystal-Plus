@@ -6563,3 +6563,13 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[TEA]
+Name = Tea
+NamePlural = Tea
+PortionName = Cup of Tea
+PortionNamePlural = Cups of Tea
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A hot cup of tea for the sick man.
