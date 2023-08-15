@@ -171,7 +171,8 @@ BaseMoney = 24
 [CAMPER]
 Name = Camper
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
+SkillLevel = 100
 #-------------------------------
 [PICNICKER]
 Name = Picnicker
@@ -191,7 +192,8 @@ BaseMoney = 60
 [YOUNGSTER]
 Name = Youngster
 Gender = Male
-BaseMoney = 16
+BaseMoney = 32
+SkillLevel = 100
 #-------------------------------
 [LASS]
 Name = Lass
